@@ -5,16 +5,41 @@
         line-height: 1.4;
 }
 
-h2,h5{
+h2,h4{
   letter-spacing: 0.3em;
   opacity: 80%;
 }
-
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 p{
   text-align: left;
-   text-align: justify;
+  
 }
-ul{
-   text-align: left;
 
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  background-color: rgba(0, 0, 0, 0.615);
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation  a {
+  color: azure;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+
+}
+
+ul{
+  text-align: left;
 }
