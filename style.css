@@ -8,12 +8,14 @@
 h2,h4{
   letter-spacing: 0.3em;
   opacity: 80%;
+ 
 }
 h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
   text-align: left;
+  margin: 50px;
   
 }
 
@@ -43,6 +45,7 @@ p{
   font-weight: 400;
   letter-spacing: 4px;
   text-align: center;
+  margin: 40px;
  
   
 
