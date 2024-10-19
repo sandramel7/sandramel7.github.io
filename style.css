@@ -20,7 +20,10 @@ p{
   
 }
 
-
+.group li{
+   text-align: left;
+    font-size: large;
+}
 
 
 .navigation li {
