@@ -1,0 +1,22 @@
+  body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        text-align: center;
+        line-height: 1.4;
+}
+
+
+
+h2,h5,{
+  letter-spacing: 0.3em;
+  opacity: 80%;
+}
+
+p{
+  text-align: left;
+   text-align: justify;
+}
+ul{
+   text-align: left;
+
+}
