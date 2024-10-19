@@ -23,33 +23,33 @@ p{
 .navigation li {
   font-weight: 100;
   letter-spacing: 2px;
-
-   background:black;
+  background-color: white;
   border: 1px solid black;
-  border-radius: 3px;
-  color: white;
+  border-radius: 1px;
+  padding: 10px;
+  font-variant: small-caps;
+  color:white;
   display: inline-block;
   text-decoration: none;
    position: relative;
+  
  
 }
 
 .navigation  a {
-  color: white;
+  color:black;
   text-transform: lowercase;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 4px;
+  text-align: center;
  
   
 
 }
 .navigation a:hover{
- background: white;
-  border: 1px solid black;
-  color: black;
-}
-
-ul{
-  text-align: left;
+ background: darkgrey;
+  border: 1px solid white;
+  color: white;
+  
 }
