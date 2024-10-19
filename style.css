@@ -18,26 +18,36 @@ p{
 }
 
 
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+
 
 .navigation li {
-  background-color: rgba(0, 0, 0, 0.615);
   font-weight: 100;
   letter-spacing: 2px;
-  padding: 20px;
+
+   background:black;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+   position: relative;
+ 
 }
 
 .navigation  a {
-  color: azure;
+  color: white;
   text-transform: lowercase;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 4px;
+ 
+  
 
+}
+.navigation a:hover{
+ background: white;
+  border: 1px solid black;
+  color: black;
 }
 
 ul{
