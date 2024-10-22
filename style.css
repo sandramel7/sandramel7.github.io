@@ -80,11 +80,23 @@ p{
    
    
 }
-.paragraph a:link{
+.paragraph a:link, .paragraph3 a:link{
   text-decoration: none;
   color: blueviolet;
 }
 
+.paragraph3{
+  background-color: black;
+  opacity: 85%;
+  color: white;
+   font-size: 12px;
+padding: 40px;
+
+
+
+
+
+}
 .group li{
    text-align: left;
     font-size: large;
