@@ -16,12 +16,16 @@ h2,h4{
 }
 h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+   margin: 0px 30px;
 }
 p{
   text-align: left;
-  margin: 30px;
+  margin:  0px 30px;
   font-size: large;
    opacity: 65%;
+   
+  
   
 }
 
@@ -29,38 +33,35 @@ p{
    text-align: left;
     font-size: large;
      opacity: 50%;
+   
 }
 
 
 .navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
+  font-weight: 400;
   background-color:lightgrey;
-  border: 1px solid white;
-  border-radius: 1px;
-  padding: 8px;
   font-variant: small-caps;
   color:white;
   display: inline-block;
-  text-decoration: none;
-   position: relative;
-    text-align: center;
+  text-transform: uppercase;
+ 
+ 
+  
   
  
 }
 
-.navigation  a {
+.navigation a {
   color:white;
-  text-transform: lowercase;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 4px;
-  text-align: center;
-  margin: 0 auto;
+  font-size: 15px;
+  position: fixed;
+   top: 0px;
+  left: 0px;
+  
+}
+  
  
   
-
-}
 .navigation a:hover{
  background:white;
   border: 1px solid white;
