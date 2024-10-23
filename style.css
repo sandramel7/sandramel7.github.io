@@ -1,5 +1,9 @@
+*{
+  margin: 0;
+ 
+}
   body {
-       
+      
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
@@ -75,37 +79,35 @@ font-family: 'Montserrat';
 h2{
   font-family: 'Montserrat';
   font-variant: small-caps;
-  font-weight: 700px;
-   margin: 40px 30px 0;
+  font-weight: 700;
  opacity: 75%;
  letter-spacing: 0.3em;
+ 
 }
 
 p{
 font-family: 'Montserrat';
   text-align: left;
-  margin:  0px 30px;
+  margin:  0px 0px;
    opacity: 65%;
+   text-align: left;
    
    
 }
 .paragraph a:link, .paragraph3 a:link{
   text-decoration: none;
   color: blueviolet;
+  font-variant: small-caps;
 }
 
-.paragraph3{
+p.paragraph3{
   background-color: black;
   opacity: 85%;
   color: white;
    font-size: 12px;
-padding: 40px;
-margin:0px;
-margin-top: 10px;
-margin-left: -8px;
-margin-right: -8px;
-margin-bottom: -8px;
- font-variant: small-caps;
+   padding: 20px;
+  
+   
 }
 
 .group li{
@@ -116,6 +118,7 @@ margin-bottom: -8px;
 }
 .group ul ::marker{
   content: "\2665";
+  
  
 }
 .img{
