@@ -121,5 +121,7 @@ margin-bottom: -8px;
   margin-bottom: 40px;
 }
 .img3{
-  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
