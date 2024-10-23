@@ -1,6 +1,6 @@
 *{
   margin: 0;
- 
+
 }
   body {
       
@@ -106,6 +106,13 @@ p.paragraph3{
   color: white;
    font-size: 12px;
    padding: 20px;
+   width: 100%;
+   right: 0px;
+   left: 0px;
+   font-variant: small-caps;
+   box-sizing: content-box;
+   margin: 0px;
+
   
    
 }
