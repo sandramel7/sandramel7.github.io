@@ -4,7 +4,7 @@
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
-      
+     
 
       
 }
@@ -66,6 +66,7 @@ width: 100%;
 h2,h4{
   letter-spacing: 0.3em;
   opacity: 75%;
+ 
 }
 
 h2{
@@ -93,13 +94,13 @@ p{
   color: white;
    font-size: 12px;
 padding: 40px;
-
-
-
-
-
-
+margin:0px;
+margin-top: 10px;
+margin-left: -8px;
+margin-right: -8px;
+margin-bottom: -8px;
 }
+
 .group li{
    text-align: left;
     font-size: large;
@@ -112,4 +113,10 @@ padding: 40px;
 }
 .img{
   margin-top: 50px;
+}
+.img2{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 40px;
 }
