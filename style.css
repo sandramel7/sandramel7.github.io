@@ -147,6 +147,7 @@ p.paragraph3{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  
    margin: 20px 0px 20px 0px;
 }
 .img4{
