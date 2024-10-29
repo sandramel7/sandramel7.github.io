@@ -1,5 +1,6 @@
 *{
-  margin: 0;
+  margin: 0px;
+  box-sizing: border-box;
 
 }
   body {
@@ -7,7 +8,7 @@
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
-     
+      
 
       
 }
@@ -25,7 +26,8 @@ h4{
 }
 
 .section{
- padding: 20px;
+ padding-top: 70px;
+
 
 }
 
@@ -65,6 +67,7 @@ font-family: 'Montserrat';
   font-size: 12px; 
   text-decoration: none;
   
+  
 }
   
 .navigation a:hover{
@@ -79,7 +82,7 @@ font-family: 'Montserrat';
 h2{
   font-family: 'Montserrat';
   font-variant: small-caps;
-  font-weight: 700;
+  font-weight: 900;
  opacity: 75%;
  letter-spacing: 0.3em;
  
@@ -88,9 +91,10 @@ h2{
 p{
 font-family: 'Montserrat';
   text-align: left;
-  margin:  0px 0px;
+  margin:  0px 0px 0px 13px;
    opacity: 65%;
    text-align: left;
+ font-weight: 500;
    
    
 }
@@ -98,6 +102,8 @@ font-family: 'Montserrat';
   text-decoration: none;
   color: blueviolet;
   font-variant: small-caps;
+
+   
 }
 
 p.paragraph3{
@@ -106,13 +112,10 @@ p.paragraph3{
   color: white;
    font-size: 12px;
    padding: 20px;
-   width: 100%;
-   right: 0px;
-   left: 0px;
    font-variant: small-caps;
-   box-sizing: content-box;
-   margin: 0px;
-
+   margin: 0px 0px;
+  
+ 
   
    
 }
@@ -121,11 +124,13 @@ p.paragraph3{
   font-family: 'Montserrat';
    text-align: left;
      opacity: 50%;
+      font-weight: 500;
+  
    
 }
 .group ul ::marker{
   content: "\2665";
-  
+ 
  
 }
 .img{
@@ -135,10 +140,15 @@ p.paragraph3{
   display: inline-flex;
   justify-content: space-around;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin: 20px 0px 20px 0px;
+
 }
 .img3{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+   margin: 20px 0px 20px 0px;
+}
+.img4{
+  margin: 20px;
 }
