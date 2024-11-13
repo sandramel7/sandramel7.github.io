@@ -1,0 +1,46 @@
+.section#hobi{
+  background-color: lightgrey;
+}
+
+.group{
+  background-color:  lightgrey;
+}
+
+.group li{
+  font-family: 'Montserrat';
+   text-align: left;
+     opacity: 50%;
+      font-weight: 500;
+      
+}
+.group ul ::marker{
+  content: "\2665";
+ 
+ 
+}
+.img2{
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: space-around;
+  margin: 20px 0px 20px 0px;
+ 
+
+}
+h2{
+  font-family: 'Montserrat';
+  font-variant: small-caps;
+  font-weight: 900;
+ opacity: 75%;
+ letter-spacing: 0.3em;
+ 
+}
+p{
+font-family: 'Montserrat';
+  text-align: left;
+  margin:  0px 0px 0px 13px;
+   opacity: 65%;
+   text-align: left;
+ font-weight: 500;
+   
+}
