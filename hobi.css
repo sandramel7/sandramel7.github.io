@@ -11,11 +11,12 @@
    text-align: left;
      opacity: 50%;
       font-weight: 500;
-      
+    
 }
+
 .group ul ::marker{
   content: "\2665";
- 
+
  
 }
 .img2{
@@ -23,7 +24,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-content: space-around;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 40px 0px;
  
 
 }
