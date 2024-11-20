@@ -13,7 +13,7 @@
 
 }
   body {
-      
+      font-display: center;
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
@@ -29,6 +29,8 @@ div.container {
 
 
 h4{
+ 
+ 
    font-family: 'Quicksand';
    font-weight: 900;
   font-variant: small-caps;
@@ -36,6 +38,26 @@ h4{
   opacity: 75%;
   padding-bottom: 15px;
   font-size: 30px;
+
+}
+h2{
+  font-family: 'Montserrat';
+  font-variant: small-caps;
+  font-weight: 900;
+ opacity: 75%;
+ letter-spacing: 0.3em;
+ font-size: 90px;
+
+ 
+}
+
+p{
+font-family: 'Montserrat';
+  text-align:justify;
+   opacity: 65%;
+   font-size: 25px;
+ font-weight: 500;
+   padding: 30px 500px 60px 500px; 
 }
 
 .section{

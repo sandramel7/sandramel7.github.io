@@ -8,21 +8,3 @@
   font-variant: small-caps;
 
 }
-h2{
-  font-family: 'Montserrat';
-  font-variant: small-caps;
-  font-weight: 900;
- opacity: 75%;
- letter-spacing: 0.3em;
- font-size: 90px;
-
- 
-}
-p{
-font-family: 'Montserrat';
-  text-align:justify;
-   opacity: 65%;
-   font-size: 25px;
- font-weight: 500;
-   padding: 30px 500px 60px 500px; 
-}
