@@ -10,8 +10,9 @@ p.paragraph3{
    padding: 20px;
    font-variant: small-caps;
    margin: 0px 0px;
-  
-   
+   font-size: 15px;
+   text-align: left;
+    padding: 30px 500px 30px 500px; 
 }
 .paragraph3 a:link{
   text-decoration: none;
@@ -30,10 +31,10 @@ h2{
 }
 p{
 font-family: 'Montserrat';
-  text-align: left;
+  text-align: justify;
   margin:  0px 0px 0px 13px;
    opacity: 65%;
-   text-align: left;
+  
  font-weight: 500;
    
 }

@@ -18,17 +18,15 @@ font-family: 'Montserrat';
    opacity: 65%;
    text-align: left;
  font-weight: 500;
+ 
   
 }
-.group li{
+.group ul{
   font-family: 'Montserrat';
-   text-align: left;
+   text-align: justify;
      opacity: 50%;
       font-weight: 500;
-     
-}
-.group ul ::marker{
-  content: "\2665";
- 
- 
+       padding: 0px 490px 60px 510px; 
+      font-size: 25px;
+      list-style-type: none;
 }
