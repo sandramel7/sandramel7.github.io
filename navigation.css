@@ -1,13 +1,15 @@
-.navigation ul{
+.navigation{
 background-color: white;
 box-sizing: content-box;
 font-variant: small-caps;
 text-align: left;
+
 margin: 0%;
 padding: 20px 2.5%;
 /* opacity: 75%; */
 top:  0px;
 left: 0px;
+justify-content: space-between;
 position: fixed;
 width: 100%;
  z-index: 1;
@@ -17,7 +19,8 @@ width: 100%;
 
 .navigation li {
 font-family: 'Montserrat';
-  display: inline-block;
+  display: inline-flex;
+
   text-transform: none;
   
  
@@ -27,11 +30,10 @@ font-family: 'Montserrat';
 
 .navigation a {
   color:black;
-   border: 1px solid black;
    padding: 4px;
  opacity: 75%; 
   font-weight: 700;
-  font-size: 12px; 
+  font-size: 16px; 
   text-decoration: none;
   
   
@@ -39,9 +41,33 @@ font-family: 'Montserrat';
   
 .navigation a:hover{
  background:lightgrey;
-  border: 1px solid white;
   color:blueviolet;
    opacity: 100%;
    
+}
+.icon{
+  display: inline-flex;
+    list-style-type: none;
+  
+ top: 0px;
+ right: 0px;
+     padding: 25px 4%;
+   text-align: right;
+    position: fixed;
+    z-index: 2;
+  
+   
+
+  
+
+}
+.icon a {
+  color:blueviolet;
+opacity: 75%;
+padding-left: 25px;
+ 
+ 
+  
+  
 }
 

@@ -13,7 +13,7 @@
 
 }
   body {
-      font-display: center;
+    
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
@@ -36,8 +36,8 @@ h4{
   font-variant: small-caps;
    letter-spacing: 0.3em;
   opacity: 75%;
-  padding-bottom: 15px;
   font-size: 30px;
+   padding: 0% 15% 2% 15%;
 
 }
 h2{
@@ -46,7 +46,7 @@ h2{
   font-weight: 900;
  opacity: 75%;
  letter-spacing: 0.3em;
- font-size: 90px;
+ font-size: 30px;
 
  
 }
@@ -55,9 +55,9 @@ p{
 font-family: 'Montserrat';
   text-align:justify;
    opacity: 65%;
-   font-size: 25px;
+   font-size: 16px;
  font-weight: 500;
-   padding: 30px 500px 60px 500px; 
+   padding: 5% 30%;
 }
 
 .section{
