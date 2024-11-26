@@ -1,5 +1,7 @@
 .section#hobi{
   background-color: lightgrey;
+   width: 100%;
+  height: 864px;
 }
 
 .group{
@@ -20,9 +22,8 @@
 .img2{
   display: inline-flex;
   justify-content: space-between;
-  flex-direction: row;
   align-content: space-around;
-  margin: 20px 0px 40px 0px;
+  margin: 20px 300px 40px 300px;
  
 
 }
