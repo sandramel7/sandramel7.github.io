@@ -67,8 +67,11 @@ font-family: 'Montserrat';
 
 .section{
  padding-top: 60px;
- 
 
+}
+
+.wrapper {
+  margin: 0 10vw;
 }
 
 .img{
