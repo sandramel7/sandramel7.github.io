@@ -1,13 +1,43 @@
 .section#forsoul{
   background-color: white;
    width: 100%;
-  height: 864px;
+  height: 800px;
+
   
 }
-.img3{
-   display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0px 300px 0px 300px;
+
  
+.slider_img{
+  width: 100%;
+}
+
+
+.slider{
+  /*margin-top: 300px;*/
+  text-align: center;
+}
+
+.slider_block{
+ width: 400px;
+height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider_line{
+  display: flex;
+  position: row;
+  left: 0;
+  transition: transform ease 1s;
+}
+
+.slider_button{
+  background-color: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 26px;
+  font-weight: 700;
+ /*top: 30%;*/
+  margin: auto;
+  cursor: pointer;
 }
