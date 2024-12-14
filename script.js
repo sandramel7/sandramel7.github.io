@@ -22,10 +22,12 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
-splitTextIntoSpans("h2");
 
+
+  splitTextIntoSpans("h2");
+  
 document.querySelectorAll("h2").forEach(h2 => {
-gsap.fromTo(h1.querySelectorAll("span"), {
+gsap.fromTo(h2.querySelectorAll("span"), {
       x: '-100%',
       filter: 'blur(8px)',
       opacity: 0,
