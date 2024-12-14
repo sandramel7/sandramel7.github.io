@@ -1,29 +1,30 @@
 .section#hobi{
-  background-color: lightgrey;
-   width: 100%;
-  height: 800px;
+  background-color:white;
+  width: 99vw;
+  height: 99vh;
+
 }
 
-.group{
-  background-color:  lightgrey;
-}
-
-.group ul{
-  font-family: 'Montserrat';
-   text-align: justify;
-     opacity: 50%;
-      font-weight: 500;
-      font-size: 25px;
-      padding: 0% 30%;
-    
-}
 
 
 .img2{
   display: inline-flex;
   justify-content: space-between;
   align-content: space-around;
-  margin: 20px 300px 40px 300px;
+ 
   filter: grayscale(100%);
+width: 69vw;
+
+ 
+}
+.section#hobi p{
+ width: 99vw;
+margin: auto;
+padding: 0vh 20vw 2vh 20vw;
+}
+.section#hobi h2{
+ width: 99vw;
+margin-top: 15vh;
+margin-bottom: 2vh; 
 
 }

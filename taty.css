@@ -1,23 +1,30 @@
+
 .img4{
-  margin: 20px;
+  padding: 2vh 20vw 2vh 20vw;
 }
 
-p.paragraph3{
-  background-color: black;
-  opacity: 85%;
-  color: white;
-   font-size: 12px;
-   padding: 20px;
-   font-variant: small-caps;
-   margin: 0px 0px;
-   font-size: 15px;
-   text-align: left;
-    padding: 30px 500px 30px 500px; 
+.section#taty{
+  background-color:white;
+  width: 99vw;
+  height: 99vh;
+
 }
-.paragraph3 a:link{
+
+
+.section#taty a:link{
   text-decoration: none;
   color: blueviolet;
-  font-variant: small-caps;
+ 
 
    
+}
+.section#taty p{
+ margin-bottom: 2vh;
+ 
+}
+.section#taty h2{
+ width: 99vw;
+margin-top: 8vh;
+margin-bottom: 2vh; 
+
 }

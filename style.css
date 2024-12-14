@@ -4,7 +4,7 @@
 @import url("./forsoul.css");
 @import url("./hobi.css");
 @import url("./collage.css");
-@import url("./school.css");
+
 
 
 *{
@@ -35,7 +35,7 @@ h4{
    font-weight: 900;
   font-variant: small-caps;
    letter-spacing: 0.3em;
-  opacity: 75%;
+ color:  rgb(59, 59, 59);
   font-size: 30px;
    padding: 0% 15% 2% 15%;
 
@@ -44,23 +44,24 @@ h2{
   font-family: 'Montserrat';
   font-variant: small-caps;
   font-weight: 900;
- opacity: 75%;
+color:  rgb(59, 59, 59);
  letter-spacing: 0.3em;
- font-size: 30px;
- padding: 250px 300px 0px 300px;
-
-
+ font-size: 40px;
+width: 99vw;
+margin-top: 25vh;
+margin-bottom: 5vh; 
  
 }
 
 p {
 font-family: 'Montserrat';
   text-align:justify;
-   opacity: 65%;
    font-size: 16px;
  font-weight: 500;
-   padding: 0px 300px 0px 300px;
-  
+ color:  rgb(75, 75, 75);
+width: 99vw;
+margin: auto;
+padding: 0vh 20vw 0vh 20vw;
 
    
 }
@@ -70,9 +71,7 @@ font-family: 'Montserrat';
 
 }
 
-.wrapper {
-  margin: 0 10vw;
-}
+
 
 .img{
   margin-top: 60px;
