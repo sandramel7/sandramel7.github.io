@@ -22,11 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+splitTextIntoSpans("h2");
 
-  splitTextIntoSpans("h2" );
-
-  document.querySelectorAll("h2").forEach(h2 =>{
-    gsap.fromTo(h2.querySelectorAll("span"), {
+document.querySelectorAll("h2").forEach(h2 => {
+gsap.fromTo(h1.querySelectorAll("span"), {
       x: '-100%',
       filter: 'blur(8px)',
       opacity: 0,
@@ -39,33 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
       stagger: 0.05,
       scrollTrigger: {
         trigger: h2,
-        start: "top 90%", // Adjust if necessary
-        end: "top 20%", // Ensures animation completes
-        toggleActions: "restart none none reset",
-        scrub: 1,
-        markers: false
-      },
-    });
-  });
-});
-
-
-      splitTextIntoSpans("p" );
-
-  document.querySelectorAll("p").forEach(p =>{
-    gsap.fromTo(h2.querySelectorAll("span"), {
-      x: '-100%',
-      filter: 'blur(8px)',
-      opacity: 0,
-    }, {
-      x: '0%',
-      filter: 'blur(0)',
-      opacity: 1,
-      duration: 1.5,
-      ease: "power4.out",
-      stagger: 0.05,
-      scrollTrigger: {
-        trigger: p,
         start: "top 90%", // Adjust if necessary
         end: "top 20%", // Ensures animation completes
         toggleActions: "restart none none reset",
