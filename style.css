@@ -6,7 +6,7 @@
 @import url("./collage.css");
 @import url("./script.js");
 
-.h2 {
+.letter {
   display: inline-block;
   overflow: hidden;
 }
