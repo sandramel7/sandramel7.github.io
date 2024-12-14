@@ -4,8 +4,12 @@
 @import url("./forsoul.css");
 @import url("./hobi.css");
 @import url("./collage.css");
+@import url("./script.js");
 
-
+.h2 {
+  display: inline-block;
+  overflow: hidden;
+}
 
 *{
   margin: 0px;
