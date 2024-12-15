@@ -22,6 +22,7 @@
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
+         overflow: scroll;
       
 }
 html{
@@ -30,6 +31,7 @@ html{
 
 div.container {
   justify-content: center;
+   
 }
 
 
@@ -46,7 +48,7 @@ h4{
 
 }
 h2{
-   
+  
   font-family: 'Montserrat';
   font-variant: small-caps;
   font-weight: 900;
@@ -56,10 +58,22 @@ color:  rgb(59, 59, 59);
 width: 99vw;
 margin-top: 25vh;
 margin-bottom: 5vh; 
+  backdrop-filter: blur(10px);
  
+}
+.h2:hover{
+  overflow-y: auto;
+  backdrop-filter: blur(10px)
+  position: sticky;
+}
+.blur-overlay{
+   backdrop-filter: blur(10px)
+
+    overflow-y: auto;
 }
 
 p {
+ 
 font-family: 'Montserrat';
   text-align:justify;
    font-size: 16px;
@@ -77,27 +91,9 @@ padding: 0vh 20vw 0vh 20vw;
 
 }
 
-.section h2 p{
-   max-width: 600px;
-    padding: 50px 20px;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-  overflow: scroll;
 
-}
-.section p.blur {
-    opacity: 0.5;
-    filter: blur(4px);
-}
-.section h2.blur {
-    opacity: 0.5;
-    filter: blur(4px);
-}
+
 
 .img{
   margin-top: 60px;
 }
-
