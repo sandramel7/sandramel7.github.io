@@ -22,11 +22,13 @@
         text-align: center;
         line-height: 1.4;
         background-color: lightgrey;
-         overflow: scroll;
+        
       
 }
 html{
   scroll-behavior: smooth;
+ 
+   
 }
 
 div.container {
@@ -58,18 +60,8 @@ color:  rgb(59, 59, 59);
 width: 99vw;
 margin-top: 25vh;
 margin-bottom: 5vh; 
-  backdrop-filter: blur(10px);
+  
  
-}
-.h2:hover{
-  overflow-y: auto;
-  backdrop-filter: blur(10px)
-  position: sticky;
-}
-.blur-overlay{
-   backdrop-filter: blur(10px)
-
-    overflow-y: auto;
 }
 
 p {
@@ -82,16 +74,13 @@ font-family: 'Montserrat';
 width: 99vw;
 margin: auto;
 padding: 0vh 20vw 0vh 20vw;
-
+unicode-bidi: isolate;
    
 }
 
 .section{
- padding-top: 60px;
-
+  padding-top: 60px;
 }
-
-
 
 
 .img{
