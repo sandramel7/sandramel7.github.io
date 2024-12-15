@@ -6,9 +6,10 @@
 @import url("./collage.css");
 @import url("./script.js");
 
-.letter {
-  display: inline-block;
-  overflow: hidden;
+
+
+.img:hover{
+   transform: scale(1.02);
 }
 
 *{
@@ -45,6 +46,7 @@ h4{
 
 }
 h2{
+   
   font-family: 'Montserrat';
   font-variant: small-caps;
   font-weight: 900;
@@ -75,7 +77,25 @@ padding: 0vh 20vw 0vh 20vw;
 
 }
 
+.section h2 p{
+   max-width: 600px;
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  overflow: scroll;
 
+}
+.section p.blur {
+    opacity: 0.5;
+    filter: blur(4px);
+}
+.section h2.blur {
+    opacity: 0.5;
+    filter: blur(4px);
+}
 
 .img{
   margin-top: 60px;

@@ -2,7 +2,9 @@
 .img4{
   padding: 2vh 20vw 2vh 20vw;
 }
-
+.img4:hover{
+   transform: scale(1.02);
+}
 .section#taty{
   background-color:white;
   width: 99vw;

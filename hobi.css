@@ -11,12 +11,20 @@
   display: inline-flex;
   justify-content: space-between;
   align-content: space-around;
+ cursor: pointer;
  
-  filter: grayscale(100%);
 width: 69vw;
 
  
 }
+
+.img2 :hover{
+  filter: grayscale(1);
+  transform: scale(1.02);
+}
+
+
+
 .section#hobi p{
  width: 99vw;
 margin: auto;
